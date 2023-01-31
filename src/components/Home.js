@@ -1,3 +1,4 @@
+import { Fade } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components';
 import Header from './Header';
@@ -6,6 +7,7 @@ export const Home = () => {
   return (
     <Container>
       <Header></Header>
+      <Fade bottom>
       <Section
         title="Model-3"
         disc="Leasing starting at $399/mo"
@@ -13,7 +15,8 @@ export const Home = () => {
         left="Coustom order"
         right="Existing Inventory"
       ></Section>
-
+</Fade>
+<Fade bottom>
       <Section
         title="Model-Y"
         disc="Order Online Touchless Delivery"
@@ -21,7 +24,8 @@ export const Home = () => {
         left="Coustom order"
         right="Existing Inventory"
       ></Section>
-
+</Fade>
+<Fade bottom>
       <Section
         title="Model-X"
         disc="Order Online Touchless Delivery"
@@ -29,6 +33,8 @@ export const Home = () => {
         left="Coustom order"
         right="Existing Inventory"
       ></Section>
+      </Fade>
+      <Fade bottom>
       <Section
         title="Model-X"
         disc="Order Online Touchless Delivery"
@@ -36,6 +42,8 @@ export const Home = () => {
         left="Coustom order"
         right="Existing Inventory"
       ></Section>
+      </Fade>
+      <Fade bottom>
       <Section
         title="Lowest Cost Solar Panel in America"
         disc="Money-back guarantee"
@@ -43,6 +51,7 @@ export const Home = () => {
         left="Order now"
         right="Learn more"
       ></Section>
+      </Fade>
       <Section
         title="Solar for New Roofs"
         disc="Solar Roof Costs Less Than a New Roof"
@@ -64,5 +73,6 @@ export const Home = () => {
 const Container = styled.div`
 max-height:100vh;
 max-width:100vw;
+
 
 `
