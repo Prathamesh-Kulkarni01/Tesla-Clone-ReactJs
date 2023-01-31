@@ -1,8 +1,9 @@
-import { Fade } from '@mui/material';
+
 import React from 'react'
 import styled from 'styled-components';
 import Header from './Header';
 import Section from './Section';
+import { Fade } from 'react-reveal';
 export const Home = () => {
   return (
     <Container>
@@ -52,6 +53,7 @@ export const Home = () => {
         right="Learn more"
       ></Section>
       </Fade>
+      <Fade bottom>
       <Section
         title="Solar for New Roofs"
         disc="Solar Roof Costs Less Than a New Roof"
@@ -59,6 +61,8 @@ export const Home = () => {
         left="Order now"
         right="Learn more"
       ></Section>
+           </Fade>
+        <Fade bottom>
       <Section
         title="Accessories"
         disc=""
@@ -66,6 +70,7 @@ export const Home = () => {
         left="Order now"
       
       ></Section>
+           </Fade>
     </Container>
   )
 }
