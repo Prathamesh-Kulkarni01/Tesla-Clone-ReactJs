@@ -47,6 +47,8 @@ display:flex;
 flex-direction:column;
 justify-content:space-between;
 align-items:center;
+scroll-snap-align:start;
+scroll-snap-stop:always;
 `
 const TextArea = styled.div`
 display:flex;
