@@ -6,7 +6,7 @@ const Section = (props) => {
     <Wrap bgImage={props.img}>
       <TextArea >
         <h1>{props.title}</h1>
-        <p>{props.desc}</p>
+        <p>{props.disc}</p>
       </TextArea>
       <Buttons>
         <ButtonGroup>

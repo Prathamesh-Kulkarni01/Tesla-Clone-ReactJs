@@ -1,13 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
+import Header from './Header';
 import Section from './Section';
 export const Home = () => {
   return (
     <Container>
+      <Header></Header>
       <Section
         title="Model-3"
         disc="Leasing starting at $399/mo"
-        img="model-3.jpg"
+        img="model-s.jpg"
         left="Coustom order"
         right="Existing Inventory"
       ></Section>
