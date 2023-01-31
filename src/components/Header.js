@@ -86,7 +86,7 @@ padding:10px 0;
 justify-content:center;
 a{
   display:flex;
-  font-weight:500;
+  font-weight:600;
   font-size:15px;
   padding:10px;
   margin:auto auto;
